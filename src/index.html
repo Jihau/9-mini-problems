@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head xmlns="">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Johannan Tehtävät</title>
+    <link rel="stylesheet" href="Styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+        function initMe(){
+            window.addEventListener('message', receiveMessage, false)
+        }
+        function receiveMessage(event) {
+            let logger = document.getElementById('console');
+            logger.value = event.data;
+        }
+        function clearConsole() {
+            let logger = document.getElementById('console');
+            logger.value = '';
+        }
+        window.onload = initMe;
+    </script>
+</head>
+<body>
+<div class="page">
+    <div class="nav_menu">
+        <div class="title-menu">
+        </div>
+        <div class="pageHeader">
+            <header id="otsikko"><img
+                    src="https://cdn.discordapp.com/attachments/942001801799024643/957630250827796490/cooltext407445503650104.png">
+            </header>
+        </div>
+        <div class="main-menu">
+
+            <a href="tehtava1.html" target="mainpage">
+                <img src="https://cdn.discordapp.com/attachments/898589149647470602/959009817027026984/unknown.png">
+            </a>
+
+            <a href="tehtava2.html" target="mainpage">
+                <img src="https://cdn.discordapp.com/attachments/898589149647470602/959009817219977226/unknown.png">
+            </a>
+
+            <a href="tehtava3.html" target="mainpage">
+                <img src="https://cdn.discordapp.com/attachments/898589149647470602/959009817798795305/unknown.png">
+            </a>
+
+            <a href="tehtava4.html" target="mainpage">
+                <img src="https://cdn.discordapp.com/attachments/898589149647470602/959009817979142175/unknown.png">
+            </a>
+
+            <a href="tehtava5.html" target="mainpage">
+                <img src="https://cdn.discordapp.com/attachments/898589149647470602/959009818151120917/unknown.png">
+            </a>
+
+            <a href="tehtava6.html" target="mainpage">
+                <img src="https://cdn.discordapp.com/attachments/898589149647470602/959009818381787166/unknown.png">
+            </a>
+
+            <a href="tehtava7.html" target="mainpage">
+                <img src="https://cdn.discordapp.com/attachments/898589149647470602/959009818557964298/unknown.png">
+            </a>
+
+            <a href="tehtava8.html" target="mainpage">
+                <img src="https://cdn.discordapp.com/attachments/898589149647470602/959009818792853504/unknown.png">
+            </a>
+
+            <a href="tehtava9.html" target="mainpage">
+                <img src="https://cdn.discordapp.com/attachments/898589149647470602/959009818973192192/unknown.png">
+            </a>
+
+            <a href="tyhjasivu.html" target="mainpage">
+                <img src="https://cdn.discordapp.com/attachments/898589149647470602/959011793739587614/unknown.png">
+            </a>
+        </div>
+    </div>
+    <section class="main_container">
+        <div class="pageContent">
+            <iframe name="mainpage" src="tyhjasivu.html" width="100%" height="600" id="mainpage">
+            </iframe>
+        </div>
+        <div class="console-container">
+            <textarea rows="31" readonly id="console"></textarea>
+            <button id="clear" onclick="clearConsole()">Tyhjennä</button>
+        </div>
+    </section>
+</div>
+</body>
+</html>

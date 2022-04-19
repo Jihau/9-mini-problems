@@ -1,0 +1,120 @@
+BODY {
+    margin: 10px 70px 70px 20px;
+    background-image: url("https://cdn.discordapp.com/attachments/899003339314970687/959063946516627456/editedbg.png");
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    font-family: 'Jura', sans-serif;
+    font-size: 12pt;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 135px;
+}
+.console-container {
+    width: 306px;
+    height: 306px;
+    text-align: center;
+    min-width: 350px;
+    padding-left: 800px;
+}
+
+#console {
+    width: 300px;
+    height: 300px;
+    resize: none;
+    background-color: black;
+    color: white;
+}
+#clear {
+    background-color: #4d7c86;
+    border: 1px solid #1d443f;
+    color: white;
+    font-family: 'Jura', sans-serif;
+    padding: 5px;
+    cursor: pointer;
+    width: 60%;
+}
+a:link{
+    color: #84969b;
+    text-decoration: none;
+}
+a:visited{
+    color: #84969b;
+}
+.main-menu a:hover {
+    opacity: 0.3;
+    color: #84969b;
+    font-weight: bold;
+}
+
+.page{
+    display: block;
+    width: 1600px;
+    min-height: 800px;
+    overflow: auto;
+    margin: 0px auto 0px auto;
+    box-sizing: border-box;
+    opacity: 0.8;
+    border: #ffffff 6px;
+}
+
+.pageHeader{
+    float: top;
+    clear: none;
+    min-height: 100px;
+    width: 800px;
+    box-sizing: border-box;
+    padding: 5px;
+    text-align: center;
+    opacity: 0.8;
+}
+.title-menu{
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+.main-menu{
+    display: table-row;
+    flex-direction: revert;
+}
+.main-menu a {
+    padding-top: 1px;
+}
+.main-menu a:first-child{
+}
+.nav_menu {
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0);
+    opacity: 0.9;
+}
+.nav_menu a {
+    float: left;
+    display: block;
+    color: #84969b;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+.nav_menu a:hover {
+    opacity: 0.3;
+    font-weight: bold;
+}
+
+.pageContent{
+    background-color: rgba(54, 93, 103, 0.71);
+    float: left;
+    clear: none;
+    min-height: 650px;
+    width: 800px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid rgb(38, 58, 56);
+    opacity: 0.9;
+    padding-left: 10px;
+}
+#mainpage{
+    border: 0;
+}
+.main_container {
+    width: 100%;
+    text-align: center;
+}
+

@@ -1,0 +1,71 @@
+
+body {
+    font-family: 'Jura', sans-serif;
+    font-size: 11pt;
+    color: #ffffff;
+    text-align: center;
+    border: 0;
+    padding: 15px;
+}
+
+.yearsContainer ul {
+    width: 60px;
+    padding-top: 40px;
+}
+
+.yearsContainer div {
+    width: 150px;
+}
+
+.yearsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.diceContainer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.diceResultContainer {
+    padding-top: 10px;
+}
+
+.imageContainer {
+    padding-bottom: 50px;
+}
+
+.tableContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.tableContainer table {
+    border: #9bc2b8 solid;
+    border-collapse: separate;
+}
+
+.tableContainer table td {
+    border: #a7d9ce solid;
+    border-collapse: separate;
+    width: 40px;
+    height: 40px;
+}
+
+.tableContainer table th {
+    border: #a7d9ce solid;
+    border-collapse: separate;
+    height: 40px;
+    font-weight: bold;
+}
+
+.resultsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
